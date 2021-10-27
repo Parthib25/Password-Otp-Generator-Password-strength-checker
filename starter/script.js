@@ -195,7 +195,7 @@ function trigger() {
       text.textContent = "Your password is strong";
       text.classList.add("strong");
       foot.style.color = "green";
-      foot.innerHTML = `<p class="note">The Password you entered is of medium strong and will keep you safe from hacking and cyber attacks.We still recommend you to change it after sometime to be double safe</p> `;
+      foot.innerHTML = `<p class="note">The Password you entered is strong and will keep you safe from hacking and cyber attacks.We still recommend you to change it after sometime to be double safe</p> `;
     } else {
       strong.classList.remove("active");
       text.classList.remove("strong");
